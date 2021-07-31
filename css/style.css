@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal-description--first::after {
+    position: relative;
+    content: url('../images/pattern-quotes.svg');
+    top: 10px;
+    left: 40px;
+}
+
+.personal-description__text {
+    position: absolute;
+}
+
+.profile-picture__first {
+    height: 222px;
+    width: 220px;
+}
+
+.personal-description__second {
+    display: none;
+}
