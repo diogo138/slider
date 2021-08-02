@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: salmon;
+}
+
+.personal-description {
+    background-color: red;
+    width: 500px;
+    margin-left: 140px;
+    background-image: url('../images/pattern-quotes.svg');
+    background-repeat: no-repeat;
+    background-position-x:78px;
+    background-position-y: 104px;
+    background-size: 80px;
+}
+
+.personal-description__text {
+    line-height: 2.0rem;
+    font-size: 27px;
+    font-family: normal;
+    margin-bottom: 3px;
+    margin-top: 150px;
+    color: #4b4b8e;
+}
+
+.personal-description__name {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: normal;
+    color: #3f3f3f;
+}
+
+.personal-description__profession {
+    color: #969696;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+/* .personal-description--first::after {
+    position: relative;
+    content: url('../images/pattern-quotes.svg');
+    top: 10px;
+    left: 40px;
+} */
+
+.profile-picture {
+    width: 693px;
+    height: 640px;
+    background-image: url('../images/pattern-bg.svg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-picture__first {
+    height: 538px;
+    width: 514px;
+    border-radius: 5px;
+}
+
+.profile-picture__icons {
+    background-color: blue;
+    display: flex;
+    display: flex;
+    position: absolute;
+    bottom: 318px;
+    right: 434px;
+}
+
+.profile-picture--icon-prev {
+    height: 56px;
+    width: 55px;    
+    border-radius: 50% 0 0 50%;
+    background-color: #fff;
+}
+
+.profile-picture__img-prev {
+    position: relative;
+    left: 23px;
+    top: 18px;
+}
+
+.profile-picture--icon-next {
+    height: 56px;
+    width: 55px;    
+    border-radius: 0 50% 50% 0;
+    background-color: #fff;
+}
+
+.profile-picture__img-next {
+    position: relative;
+    left: 23px;
+    top: 18px;
+}
+
+
+
+
+
+
+
+.personal-description__second {
+    display: none;
+}
