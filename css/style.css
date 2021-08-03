@@ -1,22 +1,32 @@
 body {
     margin: 0;
+    background-image: url('../images/pattern-curve.svg');
+    background-repeat: no-repeat;
+    background-position-y: bottom;
 }
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     background-color: salmon;
+    position: relative;
+    width: 95%;
+    margin: auto;
 }
 
 .personal-description {
     background-color: red;
+    height: 360px;
     width: 500px;
     margin-left: 140px;
-    background-image: url('../images/pattern-quotes.svg');
+    background-image: url(../images/pattern-quotes.svg);
     background-repeat: no-repeat;
-    background-position-x:78px;
+    background-position-x: 78px;
     background-position-y: 104px;
     background-size: 80px;
+    position: absolute;
+    left: 118px;
+    top: 60px;
 }
 
 .personal-description__text {
@@ -41,14 +51,8 @@ body {
     font-weight: bold;
 }
 
-/* .personal-description--first::after {
-    position: relative;
-    content: url('../images/pattern-quotes.svg');
-    top: 10px;
-    left: 40px;
-} */
-
 .profile-picture {
+    background-color: green;
     width: 693px;
     height: 640px;
     background-image: url('../images/pattern-bg.svg');
@@ -68,8 +72,8 @@ body {
     display: flex;
     display: flex;
     position: absolute;
-    bottom: 318px;
-    right: 434px;
+    bottom: 23px;
+    right: 443px;
 }
 
 .profile-picture--icon-prev {
@@ -104,6 +108,6 @@ body {
 
 
 
-.personal-description__second {
+.personal-description--next {
     display: none;
 }
