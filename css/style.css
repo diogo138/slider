@@ -8,14 +8,12 @@ body {
 .container {
     display: flex;
     justify-content: flex-end;
-    background-color: salmon;
     position: relative;
     width: 95%;
     margin: auto;
 }
 
 .personal-description {
-    background-color: red;
     height: 360px;
     width: 500px;
     margin-left: 140px;
@@ -52,7 +50,6 @@ body {
 }
 
 .profile-picture {
-    background-color: green;
     width: 693px;
     height: 640px;
     background-image: url('../images/pattern-bg.svg');
@@ -68,7 +65,6 @@ body {
 }
 
 .profile-picture__icons {
-    background-color: blue;
     display: flex;
     display: flex;
     position: absolute;
@@ -81,6 +77,7 @@ body {
     width: 55px;    
     border-radius: 50% 0 0 50%;
     background-color: #fff;
+    cursor: pointer;
 }
 
 .profile-picture__img-prev {
@@ -94,6 +91,7 @@ body {
     width: 55px;    
     border-radius: 0 50% 50% 0;
     background-color: #fff;
+    cursor: pointer;
 }
 
 .profile-picture__img-next {
@@ -102,12 +100,13 @@ body {
     top: 18px;
 }
 
-
-
-
-
-
-
 .personal-description--next {
     display: none;
+}
+
+.attribution {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
 }
