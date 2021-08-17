@@ -16,7 +16,7 @@ body {
 .personal-description {
     height: 360px;
     width: 500px;
-    margin-left: 140px;
+    margin-left: 30px;
     background-image: url(../images/pattern-quotes.svg);
     background-repeat: no-repeat;
     background-position-x: 78px;
@@ -24,7 +24,7 @@ body {
     background-size: 80px;
     position: absolute;
     left: 118px;
-    top: 60px;
+    top: 74px;
 }
 
 .personal-description__text {
@@ -52,15 +52,20 @@ body {
 .profile-picture {
     width: 693px;
     height: 640px;
-    background-image: url('../images/pattern-bg.svg');
+    background-image: url(../images/pattern-bg.svg);
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    background-size: 570px 538px;
+    background-repeat: no-repeat;
+    background-position-y: 43px;
+    background-position-x: -72px;
+    margin-right: 19px;
 }
 
 .profile-picture__first {
-    height: 538px;
-    width: 514px;
+    height: 440px;
+    width: 422px;
     border-radius: 5px;
 }
 
@@ -68,8 +73,8 @@ body {
     display: flex;
     display: flex;
     position: absolute;
-    bottom: 23px;
-    right: 443px;
+    bottom: 69px;
+    right: 580px;
 }
 
 .profile-picture--icon-prev {
